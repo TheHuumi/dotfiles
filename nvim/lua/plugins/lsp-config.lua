@@ -24,6 +24,8 @@ return {
                     ["rust-analyzer"] = {},
                 },
             })
+            require("lspconfig").omnisharp.setup({})
+            require("lspconfig").csharp_ls.setup({})
         end
     },
 }

@@ -46,6 +46,12 @@ return {
             require("lspconfig")["rust_analyzer"].setup {
                 capabilities = capabilities
             }
+            require("lspconfig")["csharp-language-server"].setup {
+                capabilities = capabilities
+            }
+            require("lspconfig")["omnisharp"].setup {
+                capabilities = capabilities
+            }
 		end,
 	},
     -- Autopairs parenthesis
